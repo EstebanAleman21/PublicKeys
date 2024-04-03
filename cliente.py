@@ -30,7 +30,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
     ))
 
     # Mensaje a enviar al servidor
-    message = b'Hola, servidor' * 100  # Mensaje de 1200 bytes
+    message = b'Hola, servidor' * 10  # Mensaje de 1200 bytes
 
     # Cifrar el mensaje con la clave pública del servidor
     cipher_text = server_public_key.encrypt(
