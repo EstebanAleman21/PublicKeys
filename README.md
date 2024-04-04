@@ -35,7 +35,3 @@ El cliente se conectará al servidor, intercambiará claves públicas y enviará
 - El cliente cifra un mensaje con la clave pública del servidor utilizando el algoritmo de relleno OAEP y el hash SHA-256.
 - El servidor descifra el mensaje con su clave privada utilizando el mismo algoritmo de relleno y hash.
 - Opcionalmente, el servidor puede cifrar una respuesta con la clave pública del cliente y enviarla de vuelta.
-
-## Nota
-
-Este código es un ejemplo básico y no debe usarse en un entorno de producción sin una revisión y pruebas adicionales. Además, asegúrate de manejar adecuadamente los casos de error y las conexiones perdidas.
